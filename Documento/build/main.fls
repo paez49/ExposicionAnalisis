@@ -1,7 +1,7 @@
-PWD c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion
+PWD c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento
 INPUT C:\Users\lanea\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\main.tex
-OUTPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.log
+INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\main.tex
+OUTPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.log
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -171,10 +171,10 @@ INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.aux
-INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.aux
-INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.aux
-OUTPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.aux
+INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.aux
+INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.aux
+INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.aux
+OUTPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.aux
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -208,40 +208,23 @@ INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex\latex\base\omlcmr.fd
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-OUTPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.pdf
+INPUT .\Imagenes\MetodoSecanteYMuller.png
+INPUT .\Imagenes\MetodoSecanteYMuller.png
+INPUT Imagenes\MetodoSecanteYMuller.png
+INPUT .\Imagenes\MetodoSecanteYMuller.png
+OUTPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.pdf
+INPUT .\Imagenes\MetodoSecanteYMuller.png
+INPUT .\Imagenes\MetodoSecanteYMuller.png
+INPUT .\Imagenes\MetodoSecanteYMuller.png
 INPUT C:\Users\lanea\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.aux
-INPUT C:\Users\lanea\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\lanea\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.aux
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT C:\Users\lanea\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb

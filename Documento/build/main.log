@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.31)  1 SEP 2022 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.31)  6 SEP 2022 00:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex"
-(c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex
+**"c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/Documento/main.tex"
+(c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/Documento/main.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04> (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -107,7 +107,7 @@ Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and footer
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box54
-) (c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.aux)
+) (c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -186,269 +186,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 22.
+(Font)              <7> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 22.
-
-LaTeX Warning: File `Figura1.png' not found on input line 28.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:28: Package pdftex.def Error: File `Figura1.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 ...  \includegraphics[scale=0.6]{Figura1.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--34
-
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 42.
-(C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 44.
- (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 44.
- [1
-
-{C:/Users/lanea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-LaTeX Warning: File `Figura2.png' not found on input line 67.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:67: Package pdftex.def Error: File `Figura2.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67     \includegraphics{Figura2.png}
-                                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--83
-
- []
-
-
-LaTeX Warning: File `Figura3.png' not found on input line 89.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:89: Package pdftex.def Error: File `Figura3.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89     \includegraphics[scale=0.8]{Figura3.png}
-                                                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: File `Figura4.png' not found on input line 97.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:97: Package pdftex.def Error: File `Figura4.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97     \includegraphics[scale=0.8]{Figura4.png}
-                                                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2]
-
-LaTeX Warning: File `Figura5.png' not found on input line 122.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:122: Package pdftex.def Error: File `Figura5.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122     \includegraphics[scale=0.6]{Figura5.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figura6.png' not found on input line 131.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:131: Package pdftex.def Error: File `Figura6.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.131     \includegraphics[scale=0.5]{Figura6.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figura7.png' not found on input line 142.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:142: Package pdftex.def Error: File `Figura7.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142     \includegraphics[scale=0.8]{Figura7.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--148
-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3]
-
-LaTeX Warning: File `Figura10.PNG' not found on input line 160.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:160: Package pdftex.def Error: File `Figura10.PNG' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 ...includegraphics[scale = .6]{Figura10.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figura8.png' not found on input line 171.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:171: Package pdftex.def Error: File `Figura8.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171     \includegraphics[scale=0.7]{Figura8.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--177
-
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
-
- []
-
-[4]
-
-LaTeX Warning: File `Figura9.png' not found on input line 215.
-
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposicion/main.tex:215: Package pdftex.def Error: File `Figura9.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215     \includegraphics[scale=.7]{Figura9.png}
-                                                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--221
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-[]\OT1/cmr/m/n/10 Barcel^^So, P. (2009, 1 abril). Aux-il-iar 3: Or-denes, Fun-ciones y No-taci[]Un
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-\OT1/cmr/m/n/10 Asint[]Utica. www.u-cursos.cl. Re-cu-per-ado 20 de agosto de 2022, de https://www.u-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-[]\OT1/cmr/m/n/10 B. (2021, 13 oc-tubre). Un-der-stand-ing Time Com-plex-ity Cal-cu-la-tion for Di-jk-stra Al-go-rithm.
- []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 233--234
-\OT1/cmr/m/n/10 Https://Www.Baeldung.Com. Re-cu-per-ado 20 de agosto de 2022, de https://www.baeldung.com/cs/dijkstra-
- []
-
-[5] [6] (c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(Font)              <5> on input line 35.
+<Imagenes/MetodoSecanteYMuller.png, id=1, 642.4pt x 290.08376pt>
+File: Imagenes/MetodoSecanteYMuller.png Graphic file (type png)
+<use Imagenes/MetodoSecanteYMuller.png>
+Package pdftex.def Info: Imagenes/MetodoSecanteYMuller.png  used on input line 40.
+(pdftex.def)             Requested size: 385.44298pt x 174.05159pt.
+[1
+
+{C:/Users/lanea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Imagenes/MetodoSecanteYMuller.png>] (c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.aux) ) 
 Here is how much of TeX's memory you used:
- 4183 strings out of 478338
- 65844 string characters out of 2836700
- 376200 words of memory out of 3000000
- 22580 multiletter control sequences out of 15000+600000
- 474670 words of font info for 46 fonts, out of 8000000 for 9000
+ 3545 strings out of 478338
+ 56811 string characters out of 2836700
+ 365184 words of memory out of 3000000
+ 21971 multiletter control sequences out of 15000+600000
+ 473514 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,62p,653b,1301s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\lanea\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\build\main.pdf" (6 pages, 156602 bytes).
+ 55i,8n,62p,284b,262s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on "c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposicion\Documento\build\main.pdf" (1 page, 81133 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
