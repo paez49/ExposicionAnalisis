@@ -6,7 +6,7 @@
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1662531409 "c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex" "build/main.pdf" "main" 1662531409
+["pdflatex"] 1662531844 "c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex" "build/main.pdf" "main" 1662531844
   "C:/Users/lanea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1662529306 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/lanea/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1662005985 10329961 9dab225696cf79ae29acde4f739da9bc ""
   "C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -147,12 +147,12 @@
   "SelfArx.cls" 1662529150 7345 08285dbe8a860f34dfd0b4c1144ac74e ""
   "art/logo.png" 0 -1 0 ""
   "build/./art/logo.png" 0 -1 0 ""
-  "build/main.aux" 1662531409 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "build/main.aux" 1662531844 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "build/main.bbl" 0 -1 0 "bibtex build/main"
   "build/main.out" 0 -1 0 "pdflatex"
   "build/results" 0 -1 0 ""
-  "c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex" 1662531395 6641 a0ffa5f5988bee43efcd5963fc234005 ""
-  "main.tex" 1662531395 6641 a0ffa5f5988bee43efcd5963fc234005 ""
+  "c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex" 1662531822 6671 e63ff6486c581edb893a57d86ceb6191 ""
+  "main.tex" 1662531822 6671 e63ff6486c581edb893a57d86ceb6191 ""
   "results" 0 -1 0 ""
   (generated)
   "build/main.aux"

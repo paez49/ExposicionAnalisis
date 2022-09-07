@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.31)  7 SEP 2022 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.31)  7 SEP 2022 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -696,6 +696,11 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 92--100
+
+ []
+
+
 c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:112: LaTeX Error: File `results' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -832,13 +837,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 Here is how much of TeX's memory you used:
  17077 strings out of 478338
  282178 string characters out of 2836700
- 730347 words of memory out of 3000000
+ 730374 words of memory out of 3000000
  34914 multiletter control sequences out of 15000+600000
  530475 words of font info for 292 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,14n,77p,1104b,472s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposición\ExposicionAnalisis\Documento\build\main.pdf" (3 pages, 106675 bytes).
+Output written on "c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposición\ExposicionAnalisis\Documento\build\main.pdf" (3 pages, 106688 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
