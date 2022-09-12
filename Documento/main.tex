@@ -9,6 +9,7 @@
 \setlength{\fboxrule}{0.75pt} 
 \usepackage[english]{babel} % Specify a different language here - english by default
 \usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+\usepackage{amsmath}
 \graphicspath{ {./Imagenes/} }
 %----------------------------------------------------------------------------------------
 %	COLORS
@@ -95,121 +96,55 @@ teniendo en cuenta que este consiste en tener una aproximación de la
 raíz a partir de dos puntos en la función $f(x)$. 
 
 \begin{figure}[ht]\centering
-	\includegraphics[scale=0.5]{GrafSecante.png}
-	\\\
+	\includegraphics[scale=0.5]{GrafSecante.png}\\\ 
 	\caption{Método de la secante}
+	\label{fig:secante}
 \end{figure}
 En el caso de 
 Muller consiste en tener 3 puntos sobre la gráfica de la función, 
 siendo estos una composición cuadrática, la cual da una aproximación de la solución o raíz de $f(x)$.
-\subsection{Subsection}
 \begin{figure}[ht]\centering
-	\includegraphics[scale=0.5]{GrafMuller.png}
-	\\\
+	\includegraphics[scale=0.5]{GrafMuller.png}\\\
+	
 	\caption{Método de Muller}
+	\label{fig:muller}
 \end{figure}
 
+\subsection{Definición matemática}
 
+Teniendo en cuenta la forma general de la ecuación cuadrática y la aproximación de la raíz,
+el metodo comienza planteando el siguiente polinomio cuadrático:
+\begin{equation} \label{eq:formaGeneral}
+	g(x)=a(x-x_{2})^2+b(x-x_{2})+c
+\end{equation}
+Queremos que la función $g(x)$, representada de color azul, pase por los puntos presentados en la figura \ref*{fig:muller},
+ es decir $[x_{0},f(x_{0})]$ , $[x_{1},f(x_{1})]$ y $[x_{2},f(x_{2})]$, por lo tanto sustituyendo en la ecuación (\ref*{eq:formaGeneral}),
+ nos da las respectivas imagenes de las funciones en $g(x_{k})$.
 
+\begin{equation} \label{eq:g0}
+\begin{aligned}
+	g(x_{0})=a(x_{0}-x_{2})^2+b(x_{0}-x_{2})+c
+\end{aligned}
+\end{equation}
+\begin{equation} \label{eq:g1}
+\begin{aligned}
+	g(x_{1})=a(x_{1}-x_{2})^2+b(x_{1}-x_{2})+c
+\end{aligned}
+\end{equation}
+\begin{equation} \label{eq:g2}
+\begin{aligned}
+	g(x_{2})=a(x_{2}-x_{2})^2+b(x_{2}-x_{2})+c
+\end{aligned}
+\end{equation}
+Al haber tres ecuaciones, podemos hallar los valores de los tres coeficientes $a$,$b$ y $c$.
+Empezando por el valor de $c$, que utilizando la ecuación (\ref*{eq:g2}) sería:
+\begin{equation} \label{eq:g2S}
+	\begin{aligned}
+	g(x_{2})=a(0)^2+b(0)+c\\
+	g(x_{2})=c
+\end{aligned}
+\end{equation}
 
-
-
-
-
-
-
-
-
-
-
-\lipsum[6] % Dummy text
-
-\paragraph{Paragraph} \lipsum[7] % Dummy text
-\paragraph{Paragraph} \lipsum[8] % Dummy text
-
-\subsection{Subsection}
-
-\lipsum[9] % Dummy text
-
-\begin{figure}[ht]\centering
-	\includegraphics[width=\linewidth]{results}
-	\caption{In-text Picture}
-	\label{fig:results}
-\end{figure}
-
-Reference to Figure \ref{fig:results}.
-
-%------------------------------------------------
-
-\section{Results and Discussion}
-
-\lipsum[10] % Dummy text
-
-\subsection{Subsection}
-
-\lipsum[11] % Dummy text
-
-\begin{table}[hbt]
-	\caption{Table of Grades}
-	\centering
-	\begin{tabular}{llr}
-		\toprule
-		\multicolumn{2}{c}{Name} \\
-		\cmidrule(r){1-2}
-		First name & Last Name & Grade \\
-		\midrule
-		John & Doe & $7.5$ \\
-		Richard & Miles & $2$ \\
-		\bottomrule
-	\end{tabular}
-	\label{tab:label}
-\end{table}
-
-\subsubsection{Subsubsection}
-
-\lipsum[12] % Dummy text
-
-\begin{description}
-	\item[Word] Definition
-	\item[Concept] Explanation
-	\item[Idea] Text
-\end{description}
-
-\subsubsection{Subsubsection}
-
-\lipsum[13] % Dummy text
-
-\begin{itemize}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
-	\item First item in a list
-	\item Second item in a list
-	\item Third item in a list
-\end{itemize}
-
-\subsubsection{Subsubsection}
-
-\lipsum[14] % Dummy text
-
-\subsection{Subsection}
-
-\lipsum[15-23] % Dummy text
-
-%------------------------------------------------
-
-\phantomsection
-\section*{Acknowledgments} % The \section*{} command stops section numbering
-
-\addcontentsline{toc}{section}{Acknowledgments} % Adds this section to the table of contents
-
-So long and thanks for all the fish \cite{Figueredo:2009dg, Smith:2012qr}.
-
-%----------------------------------------------------------------------------------------
-%	REFERENCE LIST
-%----------------------------------------------------------------------------------------
-
-\phantomsection
-\bibliographystyle{unsrt}
-\bibliography{sample.bib}
-
-%----------------------------------------------------------------------------------------
+%\section{Results and Discussion}
 
 \end{document}
