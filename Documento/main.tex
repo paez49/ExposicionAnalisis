@@ -9,6 +9,7 @@
 \setlength{\fboxrule}{0.75pt} 
 \usepackage[english]{babel} % Specify a different language here - english by default
 \usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+\graphicspath{ {./Imagenes/} }
 %----------------------------------------------------------------------------------------
 %	COLORS
 %----------------------------------------------------------------------------------------
@@ -47,7 +48,7 @@
 \affiliation{\textsuperscript{2}\textit{Facultad de ingeniería, Pontificia Universidad Javeriana}} % Author affiliation
 \affiliation{\textbf{Autor correspondiente}: jd.paez@javeriana.edu.co} % Corresponding author
 
-\Keywords{Muller --- Complex Roots --- Error --- Solution --- One Variable --- POSIBLES PALABRAS CLAVE} % Keywords - if you don't want any simply remove all the text between the curly brackets
+\Keywords{Muller --- Solution --- Complex Roots --- One Variable --- Error} % Keywords - if you don't want any simply remove all the text between the curly brackets
 \newcommand{\keywordname}{Keywords} % Defines the keywords heading name
 
 %----------------------------------------------------------------------------------------
@@ -91,13 +92,35 @@ funciones el cual será explicado y desarrollado a lo largo de este documento.
 
 El método de Muller, esta muy relacionado con el método de la secante, 
 teniendo en cuenta que este consiste en tener una aproximación de la 
-raíz a partir de dos puntos en la función $F(x)$. En el caso de 
+raíz a partir de dos puntos en la función $f(x)$. 
+
+\begin{figure}[ht]\centering
+	\includegraphics[scale=0.5]{GrafSecante.png}
+	\\\
+	\caption{Método de la secante}
+\end{figure}
+En el caso de 
 Muller consiste en tener 3 puntos sobre la gráfica de la función, 
-siendo estos una composición cuadrática, la cual da una aproximación de la raíz compleja de $F(x)$.
-\\\
-\textbf{DE AQUI EN ADELANTE ES DE LA PLANTILLA}
-\\\
+siendo estos una composición cuadrática, la cual da una aproximación de la solución o raíz de $f(x)$.
 \subsection{Subsection}
+\begin{figure}[ht]\centering
+	\includegraphics[scale=0.5]{GrafMuller.png}
+	\\\
+	\caption{Método de Muller}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \lipsum[6] % Dummy text
 

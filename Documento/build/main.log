@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.31)  7 SEP 2022 01:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.31)  12 SEP 2022 11:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex"
-(c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex
+**c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex
+(c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04> (SelfArx.cls
 Document Class: SelfArx 25/01/2012, v1.0
@@ -351,7 +351,7 @@ Language: nil 2022/06/26 3.77 Nil language
 \l@nil=\language80
 ))
 
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:11: LaTeX Error: Option clash for package babel.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:11: LaTeX Error: Option clash for package babel.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -489,33 +489,33 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip70
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 35.
-Package hyperref Info: Option `breaklinks' set `true' on input line 35.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 35.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 64.
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
+Package hyperref Info: Option `breaklinks' set `true' on input line 36.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 36.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 65.
  (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposición\ExposicionAnalisis\Documento\build\main.aux)
+) (c:\Users\lanea\OneDrive\Escritorio\XD\ExposicionAnalisis\Documento\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
  (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count307
@@ -574,30 +574,30 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 64.
-LaTeX Info: Redefining \microtypecontext on input line 64.
-Package microtype Info: Applying patch `item' on input line 64.
-Package microtype Info: Applying patch `toc' on input line 64.
-Package microtype Info: Applying patch `eqnum' on input line 64.
-Package microtype Info: Applying patch `footnote' on input line 64.
+(lastpage)             ! on input line 65.
+LaTeX Info: Redefining \microtypecontext on input line 65.
+Package microtype Info: Applying patch `item' on input line 65.
+Package microtype Info: Applying patch `toc' on input line 65.
+Package microtype Info: Applying patch `eqnum' on input line 65.
+Package microtype Info: Applying patch `footnote' on input line 65.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 64.
+LaTeX Info: Redefining \showhyphens on input line 65.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring ON on input line 64.
+Package hyperref Info: Link coloring ON on input line 65.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 67.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 68.
  (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -606,10 +606,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:67: Undefined control sequence.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:68: Undefined control sequence.
 <recently read> \@Archive 
                           
-l.67 
+l.68 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -617,7 +617,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 67.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 68.
 (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -625,89 +625,98 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 67.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 68.
  (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 67.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 68.
  (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 67.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 68.
  (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
  (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 67.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 68.
 
 
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:74: Package xcolor Error: Undefined color `color3'.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:75: Package xcolor Error: Undefined color `color3'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \section*{Introducción}
+l.75 \section*{Introducción}
                               % The \section*{} command stops section numbering
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (9.16693pt too wide) in paragraph at lines 77--86
+Overfull \hbox (9.16693pt too wide) in paragraph at lines 78--87
 \OT1/ptm/m/n/10 (-20) complejas, ya que los m[]etodos mencionados no son los indicados
  []
 
 
-Overfull \hbox (9.63016pt too wide) in paragraph at lines 77--86
+Overfull \hbox (9.63016pt too wide) in paragraph at lines 78--87
 \OT1/ptm/m/n/10 (-20) el cual ser[]a explicado y desarrollado a lo largo de este documento. 
  []
 
 
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:90: Package xcolor Error: Undefined color `color3'.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:91: Package xcolor Error: Undefined color `color3'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 \section{Definición}
+l.91 \section{Definición}
                           
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+<./Imagenes//GrafSecante.png, id=3, 260.47313pt x 298.11375pt>
+File: ./Imagenes//GrafSecante.png Graphic file (type png)
+<use ./Imagenes//GrafSecante.png>
+Package pdftex.def Info: ./Imagenes//GrafSecante.png  used on input line 98.
+(pdftex.def)             Requested size: 130.23624pt x 149.0565pt.
+<./Imagenes//GrafMuller.png, id=5, 243.91125pt x 290.58563pt>
+File: ./Imagenes//GrafMuller.png Graphic file (type png)
+<use ./Imagenes//GrafMuller.png>
+Package pdftex.def Info: ./Imagenes//GrafMuller.png  used on input line 107.
+(pdftex.def)             Requested size: 121.95532pt x 145.29245pt.
+[1{C:/Users/lanea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--100
 
- []
+ <./Imagenes//GrafSecante.png> <./Imagenes//GrafMuller.png>]
 
-
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:112: LaTeX Error: File `results' not found.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:135: LaTeX Error: File `results' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 	\includegraphics[width=\linewidth]{results}
+l.135 	\includegraphics[width=\linewidth]{results}
                                                   
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -715,44 +724,40 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `fig:results' on page 1 undefined on input line 117.
+LaTeX Warning: Reference `fig:results' on page 2 undefined on input line 140.
 
 
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:121: Package xcolor Error: Undefined color `color3'.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:144: Package xcolor Error: Undefined color `color3'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 \section{Results and Discussion}
+l.144 \section{Results and Discussion}
                                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[1{C:/Users/lanea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 160.
- (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 183.
+(C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: File `./art/logo.png' not found on input line 172.
+LaTeX Warning: File `./art/logo.png' not found on input line 195.
 
 
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:172: Package pdftex.def Error: File `./art/logo.png' not found: using draft setting.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:195: Package pdftex.def Error: File `./art/logo.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 
+l.195 
       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 172.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 195.
 (C:\Users\lanea\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -762,7 +767,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 172.
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 195.
 
 
 Package fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -773,43 +778,43 @@ Package fancyhdr Warning: \headheight is too small (11.0pt):
 
 [2]
 
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:176: Package xcolor Error: Undefined color `color3'.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:199: Package xcolor Error: Undefined color `color3'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 \section*{Acknowledgments}
+l.199 \section*{Acknowledgments}
                                  % The \section*{} command stops section num...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation `Figueredo:2009dg' on page 3 undefined on input line 180.
+LaTeX Warning: Citation `Figueredo:2009dg' on page 3 undefined on input line 203.
 
 
-LaTeX Warning: Citation `Smith:2012qr' on page 3 undefined on input line 180.
+LaTeX Warning: Citation `Smith:2012qr' on page 3 undefined on input line 203.
 
 No file main.bbl.
 
 AED: lastpage setting LastPage
 
-LaTeX Warning: File `./art/logo.png' not found on input line 192.
+LaTeX Warning: File `./art/logo.png' not found on input line 215.
 
 
-c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex:192: Package pdftex.def Error: File `./art/logo.png' not found: using draft setting.
+c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex:215: Package pdftex.def Error: File `./art/logo.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192 \end{document}
+l.215 \end{document}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 192.
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 215.
 
 
 Package fancyhdr Warning: \headheight is too small (11.0pt): 
@@ -818,7 +823,7 @@ Package fancyhdr Warning: \headheight is too small (11.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-8.24913pt}.
 
-[3] (c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposición\ExposicionAnalisis\Documento\build\main.aux)
+[3] (c:\Users\lanea\OneDrive\Escritorio\XD\ExposicionAnalisis\Documento\build\main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -832,20 +837,20 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  38C9E8F0DDCE6F110C8E7D794BD2775C;905.
+(rerunfilecheck)             After:  C53BAB9BE62FF889347B2B5BF62F6AE7;905.
  ) 
 Here is how much of TeX's memory you used:
- 17077 strings out of 478338
- 282178 string characters out of 2836700
- 730374 words of memory out of 3000000
- 34914 multiletter control sequences out of 15000+600000
+ 17100 strings out of 478338
+ 282291 string characters out of 2836700
+ 726363 words of memory out of 3000000
+ 34930 multiletter control sequences out of 15000+600000
  530475 words of font info for 292 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,14n,77p,1104b,472s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,15n,77p,1068b,475s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\lanea\OneDrive\Escritorio\Maleta\Analisis numerico\Exposición\ExposicionAnalisis\Documento\build\main.pdf" (3 pages, 106688 bytes).
+Output written on c:\Users\lanea\OneDrive\Escritorio\XD\ExposicionAnalisis\Documento\build\main.pdf (3 pages, 144603 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 96769 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 96779 words of extra memory for PDF output out of 106986 (max. 10000000)
 

@@ -6,7 +6,7 @@
   (generated)
   "build/main.bbl"
   "build/main.blg"
-["pdflatex"] 1662531844 "c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex" "build/main.pdf" "main" 1662531844
+["pdflatex"] 1663000143 "c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex" "build/main.pdf" "main" 1663000143
   "C:/Users/lanea/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1662529306 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/lanea/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1662005985 10329961 9dab225696cf79ae29acde4f739da9bc ""
   "C:/Users/lanea/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -144,15 +144,17 @@
   "C:/Users/lanea/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1636710260 10214 00ce62e730d0cfe22b35e8f1c84949c7 ""
   "C:/Users/lanea/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/lanea/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "SelfArx.cls" 1662529150 7345 08285dbe8a860f34dfd0b4c1144ac74e ""
+  "Imagenes//GrafMuller.png" 1663000048 22586 e7c675ba0339ab2272cb729a1812c31f ""
+  "Imagenes//GrafSecante.png" 1662999611 33270 85322338832b79bcc7f81a928f0950bb ""
+  "SelfArx.cls" 1662992142 7581 08285dbe8a860f34dfd0b4c1144ac74e ""
   "art/logo.png" 0 -1 0 ""
   "build/./art/logo.png" 0 -1 0 ""
-  "build/main.aux" 1662531844 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "build/main.aux" 1663000143 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "build/main.bbl" 0 -1 0 "bibtex build/main"
   "build/main.out" 0 -1 0 "pdflatex"
   "build/results" 0 -1 0 ""
-  "c:/Users/lanea/OneDrive/Escritorio/Maleta/Analisis numerico/Exposición/ExposicionAnalisis/Documento/main.tex" 1662531822 6671 e63ff6486c581edb893a57d86ceb6191 ""
-  "main.tex" 1662531822 6671 e63ff6486c581edb893a57d86ceb6191 ""
+  "c:/Users/lanea/OneDrive/Escritorio/XD/ExposicionAnalisis/Documento/main.tex" 1662999734 6906 d5fb9b97dfb5d45ccd83b99f06fc6cbb ""
+  "main.tex" 1662999734 6906 d5fb9b97dfb5d45ccd83b99f06fc6cbb ""
   "results" 0 -1 0 ""
   (generated)
   "build/main.aux"
