@@ -116,9 +116,12 @@ el metodo comienza planteando el siguiente polinomio cuadrático:
 \begin{equation} \label{eq:formaGeneral}
 	g(x)=a(x-x_{2})^2+b(x-x_{2})+c
 \end{equation}
-Queremos que la función $g(x)$, representada de color azul, pase por los puntos presentados en la figura \ref*{fig:muller},
- es decir $[x_{0},f(x_{0})]$ , $[x_{1},f(x_{1})]$ y $[x_{2},f(x_{2})]$, por lo tanto sustituyendo en la ecuación (\ref*{eq:formaGeneral}),
- nos da las respectivas imagenes de las funciones en $g(x_{k})$.
+Queremos que la función $g(x)$, representada de color azul, 
+pase por los puntos presentados en la figura \ref*{fig:muller},
+es decir $[x_{0},f(x_{0})]$ , $[x_{1},f(x_{1})]$ y $[x_{2},f(x_{2})]$,
+
+por lo tanto sustituyendo en la ecuación (\ref*{eq:formaGeneral}),
+nos da las respectivas imagenes de las funciones en $g(x_{k})$.
 
 \begin{equation} \label{eq:g0}
 \begin{aligned}
@@ -154,7 +157,8 @@ Por lo tanto al reemplazar $c$ en las ecuaciones (\ref*{eq:g0}) y (\ref*{eq:g1})
 	g(x_{1})-g(x_{2})=a(x_{1}-x_{2})^2+b(x_{1}-x_{2})
 \end{aligned}
 \end{equation}
-Empleando la fórmula para hallar la pendiente de una recta, podemos hallar una aproximación a las derivadas, dando como resultado
+Empleando la fórmula para hallar la pendiente de una recta, podemos hallar
+una aproximación a las derivadas, dando como resultado
 los coeficientes $a$ y $b$.
 \begin{equation} \label{eq:ecuacionesPendiente}
 	\begin{aligned}
@@ -168,7 +172,9 @@ los coeficientes $a$ y $b$.
 	\delta_{1}= \frac{f(x_{2})-f(x_{1})}{x_{2}-x_{1}}
 \end{aligned}
 \end{equation}
-Utilizando las ecuaciones (\ref*{eq:deltas}) y (\ref*{eq:ecuacionesPendiente}), reemplazandolas en (\ref*{eq:despejeg0}) y (\ref*{eq:despejeg1})
+Utilizando las ecuaciones (\ref*{eq:deltas}) y
+(\ref*{eq:ecuacionesPendiente}), reemplazándolas en (\ref*{eq:despejeg0}) y
+(\ref*{eq:despejeg1})
 \begin{equation} \label{eq:reemp}
 	\begin{aligned}
 	 h_{0}\delta_{0}+h_{1}\delta_{1} = b(h_{0}+h_{1})-a(h_{0}+h_{1})^2\\
@@ -186,7 +192,12 @@ Al despejar $a$ y $b$, de la anterior ecuación nos da el resultado de los coefi
 	b = a h_{1} + \delta_{1}
 \end{aligned}
 \end{equation}
-Teniendo como calcular los coeficientes, podemos hallar la raíz $x_{3}$ por medio de la fórmula cuadrática en (\ref*{eq:formaGeneral}) con $x = x_{3}$, sin embargo, como se comenta en las referencias \cite{burden2017, chapra2011}, no se puede emplear la formula tal cual, teniendo en cuenta los posibles errores de redondeo al usarla, por lo tanto hay que usar una variante:
+Teniendo como calcular los coeficientes, podemos hallar la raíz $x_{3}$ por
+medio de la fórmula cuadrática en (\ref*{eq:formaGeneral}) con $x = x_{3}$,
+sin embargo, como se comenta en las referencias
+\cite{burden2017, chapra2011}, no se puede emplear la formula tal cual, teniendo en cuenta
+los posibles errores de redondeo al usarla, por lo tanto hay que usar una
+variante:
 \begin{equation} \label{eq:x3}
 	\begin{aligned}
 	x_{3}-x_{2}=\frac{-2c}{b (signo(b))\sqrt{b^2-4ac}}
@@ -198,25 +209,111 @@ Despejando $x_{3}$
 	x_{3}=\frac{-2c}{b(signo(b))\sqrt{b^2-4ac}}+x_{2}
 \end{aligned}
 \end{equation}
-Teniendo en cuenta que $x_{2}$ de manera iterativa es el punto más aproximado a la raíz, el error se calcula:
+Teniendo en cuenta que $x_{2}$ de manera iterativa es el punto más
+aproximado a la raíz, el error se calcula:
 \begin{equation} \label{eq:error}
 	\begin{aligned}
 	\epsilon_{n}= |\frac{x_{3}-x_{2}}{x_{3}}|
 \end{aligned}
 \end{equation}
 
-Cabe mencionar que el signo que se escoge para este método, en la variante de la formula cuadrática, es el mismo signo de $b$, para que el denominador sea más grande, dando un número más aproximado a la raíz, por eso se usa la notación $signo(b)$.
+Cabe mencionar que el signo que se escoge para este método, en la variante
+de la formula cuadrática, es el mismo signo de $b$, para que el denominador
+sea más grande, dando un número más aproximado a la raíz, por eso se usa la
+notación $signo(b)$.
 \section{Pseudo código}
-A continuación se presenta como sería la implementación del método, expresado en palabras naturales:\\\
+A continuación se presenta como sería la implementación del método,
+expresado en palabras naturales:\\\
 
 
 \textbf{PSEUDO CÓDIGO ACÁ}\\\
 
-Ahora que ya se definió como el algoritmo del método de Muller, a continuación se presentará un problema, el cual será solucionado a partir de un algoritmo desarrollado en lenguaje de programación 
+Ahora que ya se definió como es el algoritmo del método de Muller, a
+continuación se presentará un problema extraído del libro de Burden, el
+cual será solucionado a partir de un algoritmo desarrollado en lenguaje de
+programación \emph{Python}.
+\section{Problema de aplicación}
+El problema a evaluar es de la sección 2.6, ejercicio numero
+10\cite{burden2017}:
+\begin{figure}[ht]\centering
+	\includegraphics[scale=0.4]{problema.png}\\\
+	\caption{Dibujo problema}
+	\label{fig:problema}
+\end{figure}
+\\Dos escaleras atraviesan un callejón de ancho $w$. Cada escalera llega
+desde la base de una pared hasta algún punto de la pared opuesta. Las
+escaleras se cruzan a una altura H sobre la acera. Halla W dado que las
+longitudes de las escaleras son $x_{1} = 20$ pies y $x_{2} = 30$ pies, y
+que $H = 8$ pies.
 \section{Planteamiento del problema}
+\begin{figure}[ht]\centering
+	\includegraphics[scale=0.4]{planteamiento.png}\\\
+	\caption{Planteamiento problema}
+	\label{fig:planteamiento}
+\end{figure}
+Empezamos creando unas nuevas variables, siendo $a$ la distancia de la pared
+de la izquierda hasta donde se cruzan las escaleras, y $b$ es parecido la
+distancia de $a$, solo que lo mide desde el cruce hasta la pared de la
+derecha. Generando $c$, se crea un triangulo rectángulo entre $w$ y
+$x_{1}$, y con $d$ se crea otro triangulo de noventa grados con $w$ y
+$x_{2}$\\
+Por el teorema de pitágoras
+\begin{equation} \label{eq:pitagoras}
+\begin{aligned}
+	w^2+c^2=x_{1}^2\\
+	w^2+d^2=x_{2}^2
+\end{aligned}
+\end{equation}
+Despejando $c$ y $d$ tenemos
+\begin{equation} \label{eq:pitagoras2}
+\begin{aligned}
+	c=\sqrt{x_{1}^2-w^2}\\
+	d=\sqrt{x_{2}^2-w^2}
+\end{aligned}
+\end{equation}
+Siguiendo con el teorema de tales
+\begin{equation} \label{eq:tales}
+\begin{aligned}
+	\frac{a}{h} = \frac{w}{d}\\
+	\\
+	\frac{b}{h} = \frac{w}{c}
+\end{aligned}
+\end{equation}
+Reemplazando \ref{eq:pitagoras2} y despejando $a$ y $b$ en la anterior ecuación
+\begin{equation} \label{eq:despejeTales}
+\begin{aligned}
+	a = \frac{w \cdot h}{\sqrt{x_{2}^2-w^2}}\\
+	b = \frac{w \cdot h}{\sqrt{x_{1}^2-w^2}}
+\end{aligned}
+\end{equation}
+Sabemos entonces, que la suma de $a$ y $b$ da la distancia de $w$, entonces,
+usando \ref{eq:despejeTales} tenemos
+\begin{equation} \label{eq:obtenerW}
+\begin{aligned}
+	w = \frac{w \cdot h}{\sqrt{x_{2}^2-w^2}} + \frac{w \cdot h}{\sqrt{x_{1}^2-w^2}}
+\end{aligned}
+\end{equation}
+Moviendo $w$ al otro lado de la ecuación tenemos que
+\begin{equation} \label{eq:ecuacionW}
+\begin{aligned}
+	1 = \frac{h}{\sqrt{x_{2}^2-w^2}} + \frac{h}{\sqrt{x_{1}^2-w^2}}
+\end{aligned}
+\end{equation}
+Reemplazando $h$, $x_{1}$ y $x_{2}$ da la ecuación
+\begin{equation} \label{eq:despejeW}
+\begin{aligned}
+	0 = \frac{8}{\sqrt{30^2-w^2}} + \frac{8}{\sqrt{20^2-w^2}}-1
+\end{aligned}
+\end{equation}
+Usando el programa desarrollado en \emph{Python}, nos da como resultado, con sus respectivas iteraciones\\\
 
 
+\textbf{FOTO DEL RESULTADO DE CÓDIGO MULLER}\\\
 
+Comparando con la implementación en \emph{Python} del método de la secante obtenido de internet 
+
+\textbf{FOTO DEL RESULTADO DE CÓDIGO SECANTE}\\\
+\section{Conclusiones}
 
 \phantomsection
 \bibliographystyle{unsrt}
