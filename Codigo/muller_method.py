@@ -16,14 +16,18 @@ def mullerMethod(f, x0, x1, x2, error, max_iter):
         # intermedios
         h0 = x1 - x0
         h1 = x2 - x1
-        d0 = (f(x1)-f(x0))/(x1-x0)
-        d1 = (f(x2)-f(x1))/(x2-x1)
+        d0 = (f(x1)-f(x0))/h0
+        d1 = (f(x2)-f(x1))/h1
         #coeficientes de la parabola
-        a = (d1 - d0)/(h1 - h0)
+        a = (d1 - d0)/(h1 + h0)
         b = a * h1 + d1
         c = f(x2)
         #Denominador
-        deno = b - sqrt(b**2 - 4 * a * c) if b < 0 else b + sqrt(b**2 - 4 * a * c)
+        rad = sqrt(b**2 - 4 * a * c)
+        if(abs(b+rad)>abs(b-rad)):
+            deno = b+rad
+        else:
+            deno = b-rad
         #Hallar x3
         x3 = x2 + (-2 * c)/deno
         if abs(x3 - x2) < error:
@@ -46,7 +50,7 @@ def main():
         x2 = float(input("x2: "))
         times, root = mullerMethod(f, x0, x1, x2, error, iterations)
         print(f"Raiz: {root}, con {times+1} iteraciones")
-        times, root = secantMethod(f, x0, x1, error, iterations)
+        times, root = secantMethod(f, x0, x2, error, iterations)
         print(f"Raiz: {root}, con {times+1} iteraciones (método de la secante)")
     except SympifyError as e:
         print(f"Error parsing string: {e.expr}")
