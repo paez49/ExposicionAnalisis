@@ -32,7 +32,7 @@ def mullerMethod(f, x0, x1, x2, error, max_iter):
         if abs(x3 - x2) < error:
             return times, x3
         x0, x1, x2 = x1, x2, x3
-
+    print("No se pudo llegar a una solución con la tolerancia requerida")
     return times, x3
 
 def main():
@@ -42,7 +42,7 @@ def main():
         f = lambdify(x, f)
         error = input("Error (default: 1e-5): ")
         error = 1e-5 if error == "" else float(error)
-        iterations = input("Número max de iteraciones (dafault: 100): ")
+        iterations = input("Número max de iteraciones (default: 100): ")
         iterations = 100 if iterations == "" else int(iterations)
         x0 = float(input("x0: "))
         x1 = float(input("x1: "))
