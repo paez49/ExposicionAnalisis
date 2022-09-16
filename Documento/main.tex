@@ -1,5 +1,7 @@
 \documentclass[ceqn,10pt]{SelfArx} 
-\usepackage[spanish]{babel} 
+\usepackage[spanish]{babel}
+\selectlanguage{spanish} 
+\usepackage[spanish,onelanguage]{algorithm2e}
 %----------------------------------------------------------------------------------------
 %	COLUMNS
 %----------------------------------------------------------------------------------------
@@ -8,7 +10,14 @@
 \setlength{\fboxrule}{0.75pt}
 \usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
 \usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{xcolor}
+\makeatletter
+\renewcommand{\ALG@name}{Pseudo-Código}
+\makeatother
 \graphicspath{ {./Imagenes/} } 
+
 
 %----------------------------------------------------------------------------------------
 %	COLORS
@@ -40,7 +49,7 @@
 %----------------------------------------------------------------------------------------
 
 \JournalInfo{Método de Muller, 2022} % Journal information
-
+\Archive{Análisis numérico}
 \PaperTitle{Método de Muller} % Article title
 
 \Authors{Juan Páez\textsuperscript{1}, Santiago Zuñiga\textsuperscript{2}} % Authors
@@ -82,7 +91,7 @@ entre otros. Sin embargo, se presenta un problema cuando las funciones que
 queramos evaluar tengan raíces complejas, ya que los métodos mencionados
 no son los indicados para este tipo planteamientos. \\
 Es por eso que el matemático estadounidense, David Eugene \textbf{Muller}, 
-propuso un método para poder obtener un aproximación de este tipo de 
+propuso un método para poder obtener una aproximación de este tipo de 
 funciones el cual será explicado y desarrollado a lo largo de este documento.
 
 
@@ -99,9 +108,10 @@ raíz a partir de dos puntos en la función $f(x)$.
 	\caption{Método de la secante}
 	\label{fig:secante}
 \end{figure}
-En el caso de 
-Muller consiste en tener 3 puntos sobre la gráfica de la función, 
-siendo estos una composición cuadrática, la cual da una aproximación de la solución o raíz de $f(x)$.
+En el caso de Muller consiste en tener 3 puntos 
+sobre la gráfica de la función, siendo estos una 
+composición cuadrática, la cual da una aproximación 
+de la solución o raíz de $f(x)$.
 \begin{figure}[ht]\centering
 	\includegraphics[scale=0.5]{GrafMuller.png}\\\
 	
@@ -221,13 +231,56 @@ Cabe mencionar que el signo que se escoge para este método, en la variante
 de la formula cuadrática, es el mismo signo de $b$, para que el denominador
 sea más grande, dando un número más aproximado a la raíz, por eso se usa la
 notación $signo(b)$.
-\section{Pseudo código}
+\section{Pseudo-Código}
 A continuación se presenta como sería la implementación del método,
 expresado en palabras naturales:\\\
-
-
-\textbf{PSEUDO CÓDIGO ACÁ}\\\
-
+\begin{algorithm}[H] %or another one check
+ \caption{Muller}
+ \textbf{Requiere:} $x_{0}$, $x_{1}$, $x_{2}$, $f(x)$ (Función a evaluar), $iter$ (Iteraciones máximas), $tol$ (Tolerancia del error).\\
+ \textbf{Salida:} Aproximación de la raíz, con cuantas iteraciones.\\
+ \\
+     \SetAlgoLined
+     \While{$i < iter$ }{
+      Calcular:\\
+      $h_{0} = x_{1}-x_{0}$\\
+      $h_{1} = x_{2}-x_{1}$\\
+      $d_{0}= (f(x_{1})-f(x_{0}))/h_{0}$\\
+	  $d_{1}= (f(x_{2})-f(x_{1}))/h_{1}$\\
+	  \\
+	  {\color{violet}\CommentSty{Calcular a b y c }}\\
+	  \state $a = d_{1}-d_{0}/h_{1}+h_{0}$\\ 
+	  $b = ah_{1} + d_{1}$
+	  \\
+	  $c = f(x_{2})$\\
+	  \\
+	  {\color{violet}\CommentSty{Calcular denominador más grande}}\\
+	  \state $rad = \sqrt{b^{2}-4ac}$\\
+	  \eIf{$|b+rad| > |b-rad|$}{ 
+	   $deno = b+rad$
+	   }{
+	   $deno = b-rad$
+	   }\\
+	   \\
+	   {\color{violet}\CommentSty{Encontrar $x_{3}$}} \\
+	   $x_{3} = x_{2} + (-2c)/deno$\\
+	   \\
+	   {\color{violet}\CommentSty{Calculo del error} }\\
+	   \eIf{$|x_{3}-x_{2}| < tol$ }{\\
+	   \\
+	        \textbf{retorne} $x_{3},i$
+	    }{
+	    {\color{violet}\CommentSty{Siguiente iteración}}\\
+	        $x_{0} = x_{1}$\\
+	        $x_{1} = x_{2}$\\
+	        $x_{2} = x_{3}$
+	    }
+      \\
+      \\
+      $i = i +1$
+     }
+     \textbf{Imprimir } No se pudo llegar a una solución\\
+     \textbf{retorne} $x_{3},i$\\
+\end{algorithm}
 Ahora que ya se definió como es el algoritmo del método de Muller, a
 continuación se presentará un problema extraído del libro de Burden, el
 cual será solucionado a partir de un algoritmo desarrollado en lenguaje de
@@ -244,7 +297,7 @@ El problema a evaluar es de la sección 2.6, ejercicio numero
 desde la base de una pared hasta algún punto de la pared opuesta. Las
 escaleras se cruzan a una altura H sobre la acera. Halla W dado que las
 longitudes de las escaleras son $x_{1} = 20$ pies y $x_{2} = 30$ pies, y
-que $H = 8$ pies.
+que $H = 8$ pies.\\
 \section{Planteamiento del problema}
 \begin{figure}[ht]\centering
 	\includegraphics[scale=0.4]{planteamiento.png}\\\
@@ -254,7 +307,7 @@ que $H = 8$ pies.
 Empezamos creando unas nuevas variables, siendo $a$ la distancia de la pared
 de la izquierda hasta donde se cruzan las escaleras, y $b$ es parecido la
 distancia de $a$, solo que lo mide desde el cruce hasta la pared de la
-derecha. Generando $c$, se crea un triangulo rectángulo entre $w$ y
+derecha. Con $c$, se crea un triangulo rectángulo entre $w$ y
 $x_{1}$, y con $d$ se crea otro triangulo de noventa grados con $w$ y
 $x_{2}$\\
 Por el teorema de pitágoras
@@ -279,7 +332,7 @@ Siguiendo con el teorema de tales
 	\frac{b}{h} = \frac{w}{c}
 \end{aligned}
 \end{equation}
-Reemplazando \ref{eq:pitagoras2} y despejando $a$ y $b$ en la anterior ecuación
+Reemplazando (\ref{eq:pitagoras2}) y despejando $a$ y $b$ en la anterior ecuación
 \begin{equation} \label{eq:despejeTales}
 \begin{aligned}
 	a = \frac{w \cdot h}{\sqrt{x_{2}^2-w^2}}\\
@@ -287,7 +340,7 @@ Reemplazando \ref{eq:pitagoras2} y despejando $a$ y $b$ en la anterior ecuación
 \end{aligned}
 \end{equation}
 Sabemos entonces, que la suma de $a$ y $b$ da la distancia de $w$, entonces,
-usando \ref{eq:despejeTales} tenemos
+usando (\ref{eq:despejeTales}) tenemos
 \begin{equation} \label{eq:obtenerW}
 \begin{aligned}
 	w = \frac{w \cdot h}{\sqrt{x_{2}^2-w^2}} + \frac{w \cdot h}{\sqrt{x_{1}^2-w^2}}
@@ -305,14 +358,16 @@ Reemplazando $h$, $x_{1}$ y $x_{2}$ da la ecuación
 	0 = \frac{8}{\sqrt{30^2-w^2}} + \frac{8}{\sqrt{20^2-w^2}}-1
 \end{aligned}
 \end{equation}
-Usando el programa desarrollado en \emph{Python}, nos da como resultado, con sus respectivas iteraciones\\\
+\section{Solución con implementación}
+Usando el programa desarrollado en \emph{Python} y con la 
+implementación del método de la secante obtenido de internet, nos 
+da como resultado, con sus respectivas iteraciones\\\
+\begin{figure}[ht]\centering
+	\includegraphics[scale=0.4]{solucionPython.png}\\\
+	\caption{Salida solución programa}
+	\label{fig:fotoPython}
+\end{figure}
 
-
-\textbf{FOTO DEL RESULTADO DE CÓDIGO MULLER}\\\
-
-Comparando con la implementación en \emph{Python} del método de la secante obtenido de internet 
-
-\textbf{FOTO DEL RESULTADO DE CÓDIGO SECANTE}\\\
 \section{Conclusiones}
 
 \phantomsection
