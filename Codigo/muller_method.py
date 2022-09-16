@@ -1,7 +1,6 @@
 #Método de muller para aproximación de raíces, Autores: Santiago Zuñiga, Juan paez
 from sympy import sympify, Symbol, lambdify, SympifyError
 from cmath import sqrt
-import readline
 
 def secantMethod(f, x0, x1, error, iterations):
     for i in range(iterations):
@@ -49,9 +48,9 @@ def main():
         x1 = float(input("x1: "))
         x2 = float(input("x2: "))
         times, root = mullerMethod(f, x0, x1, x2, error, iterations)
-        print(f"Raiz: {root}, con {times+1} iteraciones")
+        print(f"Raiz: {root}, con {times+1} iteraciones (Muller)")
         times, root = secantMethod(f, x0, x2, error, iterations)
-        print(f"Raiz: {root}, con {times+1} iteraciones (método de la secante)")
+        print(f"Raiz: {root}, con {times+1} iteraciones (Secante)")
     except SympifyError as e:
         print(f"Error parsing string: {e.expr}")
     except Exception as e:
