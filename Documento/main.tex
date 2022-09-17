@@ -23,7 +23,7 @@
 %	COLORS
 %----------------------------------------------------------------------------------------
 
-\definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
+\definecolor{color1}{RGB}{0,0,0} % Color of the article title and sections
 \definecolor{color2}{RGB}{230, 231, 231} % Color of the boxes behind the abstract and headings
 \definecolor{color3}{RGB}{0,0,0}
 %----------------------------------------------------------------------------------------
@@ -36,7 +36,7 @@
 	hidelinks,
 	colorlinks,
 	breaklinks=true,
-	urlcolor=color2,
+	urlcolor=blue,
 	citecolor=color1,
 	linkcolor=color1,
 	bookmarksopen=false,
@@ -238,7 +238,6 @@ expresado en palabras naturales:\\\
  \caption{Muller}
  \textbf{Requiere:} $x_{0}$, $x_{1}$, $x_{2}$, $f(x)$ (Función a evaluar), $iter$ (Iteraciones máximas), $tol$ (Tolerancia del error).\\
  \textbf{Salida:} Aproximación de la raíz, con cuantas iteraciones.\\
- \\
      \SetAlgoLined
      \While{$i < iter$ }{
       Calcular:\\
@@ -278,7 +277,7 @@ expresado en palabras naturales:\\\
       \\
       $i = i +1$
      }
-     \textbf{Imprimir } No se pudo llegar a una solución\\
+     \textbf{Imprimir } No se pudo llegar a una solución con la tolerancia requerida\\
      \textbf{retorne} $x_{3},i$\\
 \end{algorithm}
 Ahora que ya se definió como es el algoritmo del método de Muller, a
@@ -359,17 +358,38 @@ Reemplazando $h$, $x_{1}$ y $x_{2}$ da la ecuación
 \end{aligned}
 \end{equation}
 \section{Solución con implementación}
-Usando el programa desarrollado en \emph{Python} y con la 
-implementación del método de la secante obtenido de internet, nos 
-da como resultado, con sus respectivas iteraciones\\\
+Usando el programa desarrollado en \emph{Python}, con la 
+implementación del método de la secante obtenido de internet y escogiendo
+ a $x_{0}$, $x_{1}$ y $x_{2}$, a partir del método gráfico \cite{gg2} 
+ \begin{figure}[ht]\centering
+	\includegraphics[scale=0.6]{graficoEcuacion.png}\\\
+	\caption{Raíz de la ecuación}
+	\label{fig:raicesGraf}
+\end{figure}\\
+ Nos da como resultado, con sus respectivas iteraciones
 \begin{figure}[ht]\centering
-	\includegraphics[scale=0.4]{solucionPython.png}\\\
+	\includegraphics[scale=0.5]{solucionPython.png}\\\
 	\caption{Salida solución programa}
 	\label{fig:fotoPython}
-\end{figure}
-
-\section{Conclusiones}
-
+\end{figure}\\
+Utilizando la herramienta Wolfram Alpha \cite{wolfram}, podemos
+evidenciar cual es la raíz exacta, dándonos como resultado
+\begin{equation} \label{eq:wolfram}
+\begin{aligned}
+	x \approx 16.21212589669170009828922\notag
+\end{aligned}
+\end{equation}
+Mostrando que los dos métodos pudieron obtener la
+aproximación de la  raíz, sin embargo, el método de Muller 
+tuvo una convergencia más rápida haciéndolo en una iteración menos que el de la Secante.
+\section{Conclusión}
+Como se mencionó al principio del documento, este método es bastante útil
+para poder encontrar raíces complejas, por el hecho de que usa la formula cuadrática,
+facilitando a si mismo, el manejo de este tipo de soluciones, y, aunque la secante también
+funciona para este tipo de problemas, lo que buscamos en el \textit{Análisis numérico}
+es que la convergencia a la aproximación de la raíz sea con las menos iteraciones posibles
+minimizando el error, es por eso que lo ideal para este tipo de ecuaciones es usar el método
+propuesto por David.
 \phantomsection
 \bibliographystyle{unsrt}
 \bibliography{referencias.bib}
