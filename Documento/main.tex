@@ -15,6 +15,7 @@
 \usepackage{xcolor}
 \makeatletter
 \renewcommand{\ALG@name}{Pseudo-Código}
+
 \makeatother
 \graphicspath{ {./Imagenes/} } 
 
@@ -57,7 +58,10 @@
 \affiliation{\textsuperscript{2}\textit{Facultad de ingeniería, Pontificia Universidad Javeriana}} % Author affiliation
 \affiliation{\textbf{Autor correspondiente}: jd.paez@javeriana.edu.co} % Corresponding author
 
-\Keywords{Muller --- Solution --- Complex Roots --- One Variable --- Error} % Keywords - if you don't want any simply remove all the text between the curly brackets
+\Keywords{Muller --- Solution --- Complex Roots --- One Variable --- Error\\
+\textbf{Palabras clave:} \\
+Muller--- Solución --- Raíces complejas ---Una variable --- Error}
+% Keywords - if you don't want any simply remove all the text between the curly brackets
 \newcommand{\keywordname}{Keywords} % Defines the keywords heading name
 
 %----------------------------------------------------------------------------------------
@@ -72,7 +76,7 @@ the respective error analysis.}
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-
+\renewcommand{\abstractname}{Abstract}
 \maketitle % Output the title and abstract box
 
 \thispagestyle{empty} % Removes page numbering from the first page
@@ -240,7 +244,7 @@ expresado en palabras naturales:\\\
  \textbf{Salida:} Aproximación de la raíz, con cuantas iteraciones.\\
      \SetAlgoLined
      \While{$i < iter$ }{
-      Calcular:\\
+      {\color{violet}\CommentSty{Calcular:}}\\
       $h_{0} = x_{1}-x_{0}$\\
       $h_{1} = x_{2}-x_{1}$\\
       $d_{0}= (f(x_{1})-f(x_{0}))/h_{0}$\\

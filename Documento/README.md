@@ -1,2 +1,0 @@
-# ExposicionAnalisis
-* Juan Páez
