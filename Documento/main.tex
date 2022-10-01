@@ -58,9 +58,9 @@
 \affiliation{\textsuperscript{2}\textit{Facultad de ingeniería, Pontificia Universidad Javeriana}} % Author affiliation
 \affiliation{\textbf{Autor correspondiente}: jd.paez@javeriana.edu.co} % Corresponding author
 
-\Keywords{Muller --- Solution --- Complex Roots --- One Variable --- Error\\
-\textbf{Palabras clave:} \\
-Muller--- Solución --- Raíces complejas ---Una variable --- Error}
+\Keywords{Muller --- Solution --- Roots --- One Variable --- Error --- Polynomial\\
+\textbf{Palabras clave} \\
+Muller --- Solución --- Raíces --- Una Variable --- Error --- Polinimio}
 % Keywords - if you don't want any simply remove all the text between the curly brackets
 \newcommand{\keywordname}{Keywords} % Defines the keywords heading name
 
@@ -71,7 +71,12 @@ Muller--- Solución --- Raíces complejas ---Una variable --- Error}
 \Abstract{In this paper we will explain the Muller method used 
 to solve equations in one variable with complex roots, we will also 
 present an application problem with the computational solution and 
-the respective error analysis.}
+the respective error analysis.\\
+\textbf{Resumen}\\ En este documento se explicará el método de Muller
+usado para resolver ecuaciones en una variable con raíces complejas,
+también presentaremos un problema de aplicación con su solución 
+computacional y su respectivo análisis del error.
+}
 
 %----------------------------------------------------------------------------------------
 
@@ -359,6 +364,16 @@ Reemplazando $h$, $x_{1}$ y $x_{2}$ da la ecuación
 \begin{equation} \label{eq:despejeW}
 \begin{aligned}
 	0 = \frac{8}{\sqrt{30^2-w^2}} + \frac{8}{\sqrt{20^2-w^2}}-1
+\end{aligned}
+\end{equation}
+Esta sería la respuesta final de la solución del problema, sin embargo, este método
+debe ser empleado solo con polinomios, por lo tanto, hay que deshacerse de esos
+radicales, entonces luego de unos operaciones algebraicas, la ecuación expresada como
+de la manera correcta es
+\begin{equation} \label{eq:despejeW}
+\begin{aligned}
+	(400-w^2)^2 (230400-256w^2)-\\
+(57600-64 w^2-964 (400-x^2)+w^2 (400-w^2))^2
 \end{aligned}
 \end{equation}
 \section{Solución con implementación}
