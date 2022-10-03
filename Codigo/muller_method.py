@@ -36,11 +36,6 @@ def mullerMethod(f, x0, x1, x2, error, max_iter):
     print("No se pudo llegar a una solución con la tolerancia requerida")
     return times, x3
 
-def crossed_ladders_solver(x, x1, x2):
-    #x2 debe ser mayor a x1
-    B = 1/2*(x+1/x)*sqrt(x2**2-x1**2)
-    return sqrt(x2**2-B**2)
-
 
 def main():
     x = Symbol('x')
@@ -58,7 +53,6 @@ def main():
         print(f"Raiz: {root}, con {times+1} iteraciones (Muller)")
         times, root = secantMethod(f, x0, x2, error, iterations)
         print(f"Raiz: {root}, con {times+1} iteraciones (Secante)")
-        print(f"W = {crossed_ladders_solver(root, 20,30)}")
     except SympifyError as e:
         print(f"Error parsing string: {e.expr}")
     except Exception as e:
